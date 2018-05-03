@@ -33,7 +33,7 @@ public class ActorController {
 	@GetMapping("/test")
 	@ResponseBody
     public String getTestResponse() {
-            return "Hellow world! from Actor Controller";
+            return "Hello world! from Actor Controller";
     }
     
 	/*

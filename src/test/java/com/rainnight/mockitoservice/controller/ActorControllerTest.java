@@ -26,6 +26,7 @@ import com.rainnight.mockitoservice.service.ActorService;
 //@ContextConfiguration(locations = "classpath:com/rainnight/mockitoservice/ActorService-context.xml")
 @WebMvcTest(value = ActorController.class, secure = false)
 public class ActorControllerTest {
+	/*MockBean from Spring */
 	
 	@Autowired private MockMvc mockMvc;
 	@MockBean private ActorService actorService;

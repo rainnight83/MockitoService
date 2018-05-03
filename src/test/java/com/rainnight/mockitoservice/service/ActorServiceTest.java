@@ -16,9 +16,9 @@ import com.rainnight.mockitoservice.model.Actor;
 @RunWith(SpringRunner.class)
 @ContextConfiguration(locations = "classpath:com/rainnight/mockitoservice/ActorService-context.xml")
 public class ActorServiceTest {
-	 
+	 /*Autowired with Mock defined in Context Bean */
+	
 	@Autowired ActorService actorService;
-	//@MockBean ActorServiceImpl actorService;
 	
 	@Test
 	public void testAddActor()
